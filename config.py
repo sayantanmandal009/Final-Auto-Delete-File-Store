@@ -37,7 +37,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_PIC = os.environ.get("START_PIC","")
-START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
+START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\n<b>Please Click on 'JOIN CHANNEL' button and Join,\nThen click on 'TRY AGAIN' button to get your file</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6744829563 7056014024").split()):
